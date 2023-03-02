@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import InputTodo from './InputTodo';
 import TodosList from './TodosList';
+// disable no-param-reassign
 
 const TodosLogic = () => {
   const [todos, setTodos] = useState([]);
@@ -36,7 +37,7 @@ const TodosLogic = () => {
     setTodos(
       todos.map((todo) => {
         if (todo.id === id) {
-          todo.title = { updatedTitle };
+          todo.title = updatedTitle;
         }
         return todo;
       }),

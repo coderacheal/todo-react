@@ -21,17 +21,14 @@
     "no-shadow": "off",
     "react/prop-types": 0,
     "no-param-reassign": 0,
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
+    "import/extensions": [ "error","ignorePackages", {
         "js": "never",
         "jsx": "never",
         "ts": "never",
         "tsx": "never"
       }
    ],
-   "react/jsx-filename-extension": [1, { "extensions": [".js", ".ts", "tsx"] }]
+   "react/jsx-filename-extension": [0, { "extensions": [".js", ".ts", "tsx"] }]
 
   },
   "ignorePatterns": [

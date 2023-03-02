@@ -20,7 +20,7 @@
     "import/no-unresolved": "off",
     "no-shadow": "off",
     "react/prop-types": "off",
-    "import/extensions": { "js": "never", "json": "never" }
+    "import/extensions": "off"
   },
   "ignorePatterns": [
     "dist/",
